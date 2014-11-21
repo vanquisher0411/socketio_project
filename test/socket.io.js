@@ -88,8 +88,9 @@ describe('socket.io', function(){
 
     it('should allow request when origin defined as function and same is supplied', function(done) {
       var sockets = io({ origins: function(origin,callback){
-        if(origin == 'http://foo.example') 
+        if (origin == 'http://foo.example') {
           return callback(null, true);
+        }
         return callback(null, false);
       } }).listen('54016');
       request.get('http://localhost:54016/socket.io/default/')
@@ -103,8 +104,9 @@ describe('socket.io', function(){
 
     it('should allow request when origin defined as function and different is supplied', function(done) {
       var sockets = io({ origins: function(origin,callback){
-        if(origin == 'http://foo.example') 
+        if (origin == 'http://foo.example') {
           return callback(null, true);
+        }
         return callback(null, false);
       } }).listen('54017');
       request.get('http://localhost:54017/socket.io/default/')
