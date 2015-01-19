@@ -11,8 +11,8 @@ npm install socket.io
 ```
 
 [![Build Status](https://secure.travis-ci.org/Automattic/socket.io.svg)](http://travis-ci.org/Automattic/socket.io)
-[![NPM version](https://badge.fury.io/js/socket.io.svg)](http://badge.fury.io/js/socket.io)
-![Downloads](http://img.shields.io/npm/dm/socket.io.svg)
+![NPM version](https://badge.fury.io/js/socket.io.svg)
+![Downloads](http://img.shields.io/npm/dm/socket.io.svg?style=flat)
 
 ## How to use
 
