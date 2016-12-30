@@ -15,6 +15,12 @@ npm install socket.io
 ![Downloads](http://img.shields.io/npm/dm/socket.io.svg?style=flat)
 [![](http://slack.socket.io/badge.svg?)](http://slack.socket.io)
 
+## Installation
+
+```bash
+npm install socket.io --save
+```
+
 ## How to use
 
 First, require `socket.io`:
