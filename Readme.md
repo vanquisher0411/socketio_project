@@ -7,7 +7,11 @@ horizontal scalability, automatic JSON encoding/decoding, and more.
 ## How to Install
 
 ```bash
+// with npm
 npm install socket.io
+
+// with yarn
+yarn add socket.io
 ```
 
 [![Build Status](https://secure.travis-ci.org/socketio/socket.io.svg)](http://travis-ci.org/socketio/socket.io)
